@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap");
 
-/*General page*/
+/*General page styling*/
 #title {
   font-family: Abril Fatface;
   text-align: center;
@@ -14,13 +14,12 @@ body {
 
 .newspaper-container {
   background-color: white;
-  box-shadow: #ddd;
   border-radius: 25px;
   width: 700px;
   height: auto;
   margin: auto;
   padding: 1em;
-  box-shadow: 2px 2px 4px grey;
+  box-shadow: 4px 4px 8px #ddd;
 }
 
 a {
@@ -35,8 +34,8 @@ p {
 
 /*Navbar*/
 nav {
-  border-top: 1px solid rgb(197, 187, 187);
-  border-bottom: 1px solid rgb(197, 187, 187);
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 nav ul {
   list-style-type: none;
@@ -49,6 +48,7 @@ nav li {
 
 nav a {
   font-size: 0.85em;
+  color: #777;
 }
 
 /*Main Article*/
@@ -86,4 +86,42 @@ main img {
 .more-articles img {
   width: 100%;
   height: auto;
+}
+
+/*Bonus three articles*/
+.bonus-articles {
+  text-align: center;
+  border-top: 0.25em solid #eee;
+}
+
+.bonus-articles section {
+  width: 25%;
+  display: inline-block;
+  margin: 1em;
+}
+
+.bonus-articles img {
+  width: 100%;
+}
+
+/*Footer bonus*/
+footer {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+footer ul {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  padding-inline-start: 0px;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0.4em;
+}
+
+footer a {
+  font-size: 0.75em;
+  color: #777;
 }
