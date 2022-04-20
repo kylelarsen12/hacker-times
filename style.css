@@ -36,6 +36,10 @@ p {
 nav {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
 }
 nav ul {
   list-style-type: none;
@@ -88,7 +92,7 @@ main img {
   height: auto;
 }
 
-/*Bonus three articles*/
+/*Bonus three articles
 .bonus-articles {
   text-align: center;
   border-top: 0.25em solid #eee;
@@ -97,6 +101,24 @@ main img {
 .bonus-articles section {
   width: 25%;
   display: inline-block;
+  margin: 1em;
+}
+
+.bonus-articles img {
+  width: 100%;
+}
+*/
+
+/*Bonus articles css grid*/
+.bonus-articles {
+  text-align: center;
+  border-top: 0.25em solid #eee;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.bonus-articles section {
+  width: 90%;
   margin: 1em;
 }
 
